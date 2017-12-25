@@ -7,21 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74E8373FD724A9100D125CA7 /* Pods_Yazeed_Fitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC652BED5FED24E50A69D8E /* Pods_Yazeed_Fitness.framework */; };
+		7DD1C6A61FF1462D00E0A160 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1C6A51FF1462D00E0A160 /* NetworkHelper.swift */; };
+		7DD1C6A81FF147F000E0A160 /* ModBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1C6A71FF147F000E0A160 /* ModBaseResponse.swift */; };
+		7DD1C6AA1FF1482000E0A160 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1C6A91FF1482000E0A160 /* NetworkConstants.swift */; };
+		7DD1C6AC1FF1599B00E0A160 /* VcSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1C6AB1FF1599B00E0A160 /* VcSideMenu.swift */; };
+		7DD1C6B21FF15A7F00E0A160 /* CcSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1C6B01FF15A7F00E0A160 /* CcSideMenu.swift */; };
+		7DD1C6B31FF15A7F00E0A160 /* CcSideMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DD1C6B11FF15A7F00E0A160 /* CcSideMenu.xib */; };
 		7DD2988D1FEA80B400A8E989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2988C1FEA80B400A8E989 /* AppDelegate.swift */; };
-		7DD2988F1FEA80B400A8E989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD2988E1FEA80B400A8E989 /* ViewController.swift */; };
-		7DD298921FEA80B400A8E989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD298901FEA80B400A8E989 /* Main.storyboard */; };
 		7DD298941FEA80B400A8E989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DD298931FEA80B400A8E989 /* Assets.xcassets */; };
 		7DD298971FEA80B400A8E989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD298951FEA80B400A8E989 /* LaunchScreen.storyboard */; };
+		7DD298A51FEAB4CE00A8E989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD298A31FEAB4CE00A8E989 /* Main.storyboard */; };
+		7DD298A61FEAB4CE00A8E989 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD298A41FEAB4CE00A8E989 /* ViewController.swift */; };
+		7DD298A81FEAB4EA00A8E989 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD298A71FEAB4EA00A8E989 /* SideMenu.storyboard */; };
+		7DD298AD1FEAB73A00A8E989 /* asd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD298AC1FEAB73A00A8E989 /* asd.m */; };
+		7DD298B21FEAB82800A8E989 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD298B11FEAB82800A8E989 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12B4068BA1F51386A3EB4C2A /* Pods-Yazeed Fitness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yazeed Fitness.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yazeed Fitness/Pods-Yazeed Fitness.debug.xcconfig"; sourceTree = "<group>"; };
+		20C01D41430FB92AECBB0351 /* Pods-Yazeed Fitness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yazeed Fitness.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yazeed Fitness/Pods-Yazeed Fitness.release.xcconfig"; sourceTree = "<group>"; };
+		7DD1C6A51FF1462D00E0A160 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		7DD1C6A71FF147F000E0A160 /* ModBaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModBaseResponse.swift; sourceTree = "<group>"; };
+		7DD1C6A91FF1482000E0A160 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		7DD1C6AB1FF1599B00E0A160 /* VcSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VcSideMenu.swift; sourceTree = "<group>"; };
+		7DD1C6B01FF15A7F00E0A160 /* CcSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CcSideMenu.swift; sourceTree = "<group>"; };
+		7DD1C6B11FF15A7F00E0A160 /* CcSideMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CcSideMenu.xib; sourceTree = "<group>"; };
+		7DD1C6B41FF15C1800E0A160 /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "ar-EG"; path = "ar-EG.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		7DD298891FEA80B400A8E989 /* Yazeed Fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yazeed Fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD2988C1FEA80B400A8E989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DD2988E1FEA80B400A8E989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DD298911FEA80B400A8E989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DD298931FEA80B400A8E989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DD298961FEA80B400A8E989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DD298981FEA80B400A8E989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DD298A31FEAB4CE00A8E989 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7DD298A41FEAB4CE00A8E989 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DD298A71FEAB4EA00A8E989 /* SideMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		7DD298AB1FEAB73A00A8E989 /* Yazeed Fitness-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yazeed Fitness-Bridging-Header.h"; sourceTree = "<group>"; };
+		7DD298AC1FEAB73A00A8E989 /* asd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = asd.m; sourceTree = "<group>"; };
+		7DD298B01FEAB82800A8E989 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		7DD298B11FEAB82800A8E989 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		ADC652BED5FED24E50A69D8E /* Pods_Yazeed_Fitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yazeed_Fitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,81 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E8373FD724A9100D125CA7 /* Pods_Yazeed_Fitness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62CF5EF1B38EA22AA43ABC52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADC652BED5FED24E50A69D8E /* Pods_Yazeed_Fitness.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DD1C69F1FF139B100E0A160 /* Dal */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1C6A31FF139B100E0A160 /* Specific Access */,
+				7DD1C6A01FF139B100E0A160 /* General Access */,
+			);
+			path = Dal;
+			sourceTree = "<group>";
+		};
+		7DD1C6A01FF139B100E0A160 /* General Access */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1C6A11FF139B100E0A160 /* Network */,
+				7DD1C6A41FF13A7C00E0A160 /* Persistence */,
+			);
+			path = "General Access";
+			sourceTree = "<group>";
+		};
+		7DD1C6A11FF139B100E0A160 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1C6A51FF1462D00E0A160 /* NetworkHelper.swift */,
+				7DD1C6A71FF147F000E0A160 /* ModBaseResponse.swift */,
+				7DD1C6A91FF1482000E0A160 /* NetworkConstants.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7DD1C6A31FF139B100E0A160 /* Specific Access */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Specific Access";
+			sourceTree = "<group>";
+		};
+		7DD1C6A41FF13A7C00E0A160 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		7DD1C6AD1FF159BF00E0A160 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1C6B01FF15A7F00E0A160 /* CcSideMenu.swift */,
+				7DD1C6B11FF15A7F00E0A160 /* CcSideMenu.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		7DD298801FEA80B400A8E989 = {
 			isa = PBXGroup;
 			children = (
+				7DD298AC1FEAB73A00A8E989 /* asd.m */,
 				7DD2988B1FEA80B400A8E989 /* Yazeed Fitness */,
 				7DD2988A1FEA80B400A8E989 /* Products */,
+				FBA2C099A1377D405C9A324F /* Pods */,
+				62CF5EF1B38EA22AA43ABC52 /* Frameworks */,
+				7DD298AB1FEAB73A00A8E989 /* Yazeed Fitness-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +143,86 @@
 		7DD2988B1FEA80B400A8E989 /* Yazeed Fitness */ = {
 			isa = PBXGroup;
 			children = (
+				7DD298AE1FEAB82800A8E989 /* Librareis */,
+				7DD2989E1FEAB39B00A8E989 /* Model */,
+				7DD2989F1FEAB39B00A8E989 /* Presenters */,
+				7DD298A01FEAB39B00A8E989 /* Views */,
+				7DD1C69F1FF139B100E0A160 /* Dal */,
 				7DD2988C1FEA80B400A8E989 /* AppDelegate.swift */,
-				7DD2988E1FEA80B400A8E989 /* ViewController.swift */,
-				7DD298901FEA80B400A8E989 /* Main.storyboard */,
 				7DD298931FEA80B400A8E989 /* Assets.xcassets */,
 				7DD298951FEA80B400A8E989 /* LaunchScreen.storyboard */,
 				7DD298981FEA80B400A8E989 /* Info.plist */,
 			);
 			path = "Yazeed Fitness";
+			sourceTree = "<group>";
+		};
+		7DD2989E1FEAB39B00A8E989 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DD2989F1FEAB39B00A8E989 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenters;
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		7DD298A01FEAB39B00A8E989 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DD298A21FEAB4CE00A8E989 /* Home */,
+				7DD298A11FEAB48B00A8E989 /* SideMenu */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DD298A11FEAB48B00A8E989 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7DD1C6AD1FF159BF00E0A160 /* Cells */,
+				7DD298A71FEAB4EA00A8E989 /* SideMenu.storyboard */,
+				7DD1C6AB1FF1599B00E0A160 /* VcSideMenu.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		7DD298A21FEAB4CE00A8E989 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7DD298A31FEAB4CE00A8E989 /* Main.storyboard */,
+				7DD298A41FEAB4CE00A8E989 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7DD298AE1FEAB82800A8E989 /* Librareis */ = {
+			isa = PBXGroup;
+			children = (
+				7DD298AF1FEAB82800A8E989 /* SWRevealViewController */,
+			);
+			path = Librareis;
+			sourceTree = "<group>";
+		};
+		7DD298AF1FEAB82800A8E989 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7DD298B01FEAB82800A8E989 /* SWRevealViewController.h */,
+				7DD298B11FEAB82800A8E989 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		FBA2C099A1377D405C9A324F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12B4068BA1F51386A3EB4C2A /* Pods-Yazeed Fitness.debug.xcconfig */,
+				20C01D41430FB92AECBB0351 /* Pods-Yazeed Fitness.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DD2989B1FEA80B400A8E989 /* Build configuration list for PBXNativeTarget "Yazeed Fitness" */;
 			buildPhases = (
+				12941C0C31C08E6BC5F7B078 /* [CP] Check Pods Manifest.lock */,
 				7DD298851FEA80B400A8E989 /* Sources */,
 				7DD298861FEA80B400A8E989 /* Frameworks */,
 				7DD298871FEA80B400A8E989 /* Resources */,
+				DC90C5C9C6EE51E6E8A2589E /* [CP] Embed Pods Frameworks */,
+				7815E4DB0399AC2D16BFFF1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +261,7 @@
 					7DD298881FEA80B400A8E989 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = H4JG37F7M9;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -108,6 +273,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"ar-EG",
 			);
 			mainGroup = 7DD298801FEA80B400A8E989;
 			productRefGroup = 7DD2988A1FEA80B400A8E989 /* Products */;
@@ -125,38 +291,88 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD298971FEA80B400A8E989 /* LaunchScreen.storyboard in Resources */,
+				7DD298A81FEAB4EA00A8E989 /* SideMenu.storyboard in Resources */,
 				7DD298941FEA80B400A8E989 /* Assets.xcassets in Resources */,
-				7DD298921FEA80B400A8E989 /* Main.storyboard in Resources */,
+				7DD1C6B31FF15A7F00E0A160 /* CcSideMenu.xib in Resources */,
+				7DD298A51FEAB4CE00A8E989 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12941C0C31C08E6BC5F7B078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7815E4DB0399AC2D16BFFF1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yazeed Fitness/Pods-Yazeed Fitness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC90C5C9C6EE51E6E8A2589E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yazeed Fitness/Pods-Yazeed Fitness-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DD298851FEA80B400A8E989 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD2988F1FEA80B400A8E989 /* ViewController.swift in Sources */,
+				7DD1C6AA1FF1482000E0A160 /* NetworkConstants.swift in Sources */,
+				7DD298AD1FEAB73A00A8E989 /* asd.m in Sources */,
+				7DD298A61FEAB4CE00A8E989 /* ViewController.swift in Sources */,
+				7DD1C6A81FF147F000E0A160 /* ModBaseResponse.swift in Sources */,
+				7DD1C6A61FF1462D00E0A160 /* NetworkHelper.swift in Sources */,
 				7DD2988D1FEA80B400A8E989 /* AppDelegate.swift in Sources */,
+				7DD1C6AC1FF1599B00E0A160 /* VcSideMenu.swift in Sources */,
+				7DD1C6B21FF15A7F00E0A160 /* CcSideMenu.swift in Sources */,
+				7DD298B21FEAB82800A8E989 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7DD298901FEA80B400A8E989 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DD298911FEA80B400A8E989 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DD298951FEA80B400A8E989 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7DD298961FEA80B400A8E989 /* Base */,
+				7DD1C6B41FF15C1800E0A160 /* ar-EG */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -217,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -257,26 +475,35 @@
 		};
 		7DD2989C1FEA80B400A8E989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B4068BA1F51386A3EB4C2A /* Pods-Yazeed Fitness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = H4JG37F7M9;
 				INFOPLIST_FILE = "Yazeed Fitness/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.googansolutions.Yazeed-Fitness";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yazeed Fitness-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		7DD2989D1FEA80B400A8E989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C01D41430FB92AECBB0351 /* Pods-Yazeed Fitness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = H4JG37F7M9;
 				INFOPLIST_FILE = "Yazeed Fitness/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.googansolutions.Yazeed-Fitness";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yazeed Fitness-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +527,7 @@
 				7DD2989D1FEA80B400A8E989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
