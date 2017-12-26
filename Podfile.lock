@@ -1,12 +1,31 @@
 PODS:
   - Alamofire (4.5.0)
+  - IQKeyboardManagerSwift (4.0.13)
+  - MBProgressHUD (1.0.0)
+  - SwiftValidator (4.0.0)
 
 DEPENDENCIES:
   - Alamofire
+  - IQKeyboardManagerSwift
+  - MBProgressHUD (= 1.0.0)
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: 6cff6cac3e02a617f7cf11323e18526a117d5673
+    :git: https://github.com/jpotts18/SwiftValidator.git
 
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  IQKeyboardManagerSwift: fb399c4cddcd8d9bbcd2d0c7c81ed290b61c088e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
 
-PODFILE CHECKSUM: d7fd4cafed8464b88bdcc2482bd8ccb70f60ebbf
+PODFILE CHECKSUM: e6136c511021c2205f88b116ed5d13ce9bc6275e
 
 COCOAPODS: 1.2.1

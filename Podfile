@@ -4,9 +4,11 @@
 target 'Yazeed Fitness' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
+  
+    pod 'SwiftValidator', :git => 'https://github.com/jpotts18/SwiftValidator.git', :branch => 'master'
+    pod 'MBProgressHUD', '1.0.0'
     pod 'Alamofire'
-    pod ''
+    pod 'IQKeyboardManagerSwift'
   # Pods for Yazeed Fitness
 
 end

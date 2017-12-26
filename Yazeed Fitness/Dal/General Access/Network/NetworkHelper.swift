@@ -43,7 +43,7 @@ class NetworkHelper
         
     }
     
-    internal static func MahirAPI(domainurl:String? = nil, service:String ,hTTPMethod: Method, parameters: [String:Any]?, Files: [UploadableFile]? = nil, httpBodyData:Data? = nil
+    internal static func YazeedAPI(domainurl:String? = nil, service:String ,hTTPMethod: Method, parameters: [String:Any]?, Files: [UploadableFile]? = nil, httpBodyData:Data? = nil
         , responseType: ResponseType = .StringJson
         , callbackString: ((DataResponse<String>) -> Void)? = nil
         //  , callbackSwiftyDic: ((_ JSON: JSON, _ Error: Error?) -> Void)? = nil
@@ -178,6 +178,8 @@ class NetworkHelper
                         else  if baseResponse.status == "403"
                         {
                             baseResponse.ResponseStat = ResponseStat.InvalidToken
+                            // logout
+                            
                         }
                         else
                         {
