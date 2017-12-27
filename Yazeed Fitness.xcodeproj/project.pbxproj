@@ -20,6 +20,12 @@
 		7D14E08B1FF2895900616F71 /* ValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14E0881FF2895900616F71 /* ValidationUtil.swift */; };
 		7D14E08C1FF28CC000616F71 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D14E08E1FF28CC000616F71 /* Login.storyboard */; };
 		7D14E08F1FF28CEF00616F71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D14E0911FF28CEF00616F71 /* Main.storyboard */; };
+		7D14E0931FF3D51B00616F71 /* VcLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14E0921FF3D51B00616F71 /* VcLogin.swift */; };
+		7D14E0961FF3D64000616F71 /* UIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14E0951FF3D64000616F71 /* UIConstant.swift */; };
+		7D14E0981FF3E8C800616F71 /* DalLgoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14E0971FF3E8C800616F71 /* DalLgoin.swift */; };
+		7D14E09A1FF3EB0800616F71 /* PrLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14E0991FF3EB0800616F71 /* PrLogin.swift */; };
+		7D14E09C1FF3EC6600616F71 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14E09B1FF3EC6600616F71 /* UserEntity.swift */; };
+		7D14E09E1FF3FFA600616F71 /* VcForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D14E09D1FF3FFA600616F71 /* VcForgotPassword.swift */; };
 		7DD1C6A61FF1462D00E0A160 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1C6A51FF1462D00E0A160 /* NetworkHelper.swift */; };
 		7DD1C6A81FF147F000E0A160 /* ModBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1C6A71FF147F000E0A160 /* ModBaseResponse.swift */; };
 		7DD1C6AA1FF1482000E0A160 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD1C6A91FF1482000E0A160 /* NetworkConstants.swift */; };
@@ -49,6 +55,12 @@
 		7D14E0881FF2895900616F71 /* ValidationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationUtil.swift; sourceTree = "<group>"; };
 		7D14E08D1FF28CC000616F71 /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "ar-EG"; path = "ar-EG.lproj/Login.storyboard"; sourceTree = "<group>"; };
 		7D14E0901FF28CEF00616F71 /* ar-EG */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "ar-EG"; path = "ar-EG.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		7D14E0921FF3D51B00616F71 /* VcLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VcLogin.swift; sourceTree = "<group>"; };
+		7D14E0951FF3D64000616F71 /* UIConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstant.swift; sourceTree = "<group>"; };
+		7D14E0971FF3E8C800616F71 /* DalLgoin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DalLgoin.swift; sourceTree = "<group>"; };
+		7D14E0991FF3EB0800616F71 /* PrLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrLogin.swift; sourceTree = "<group>"; };
+		7D14E09B1FF3EC6600616F71 /* UserEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		7D14E09D1FF3FFA600616F71 /* VcForgotPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VcForgotPassword.swift; sourceTree = "<group>"; };
 		7DD1C6A51FF1462D00E0A160 /* NetworkHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		7DD1C6A71FF147F000E0A160 /* ModBaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModBaseResponse.swift; sourceTree = "<group>"; };
 		7DD1C6A91FF1482000E0A160 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
@@ -93,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				7D14E08E1FF28CC000616F71 /* Login.storyboard */,
+				7D14E0921FF3D51B00616F71 /* VcLogin.swift */,
+				7D14E09D1FF3FFA600616F71 /* VcForgotPassword.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -136,6 +150,16 @@
 			path = "Logic Utilities";
 			sourceTree = "<group>";
 		};
+		7D14E0941FF3D5F200616F71 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7D14E0711FF282E300616F71 /* Login */,
+				7DD298A21FEAB4CE00A8E989 /* Home */,
+				7DD298A11FEAB48B00A8E989 /* SideMenu */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
 		7DD1C69F1FF139B100E0A160 /* Dal */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +191,7 @@
 		7DD1C6A31FF139B100E0A160 /* Specific Access */ = {
 			isa = PBXGroup;
 			children = (
+				7D14E0971FF3E8C800616F71 /* DalLgoin.swift */,
 			);
 			path = "Specific Access";
 			sourceTree = "<group>";
@@ -225,6 +250,7 @@
 		7DD2989E1FEAB39B00A8E989 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7D14E09B1FF3EC6600616F71 /* UserEntity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -233,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				7D14E0851FF2895900616F71 /* Logic Utilities */,
+				7D14E0991FF3EB0800616F71 /* PrLogin.swift */,
 			);
 			name = Presenters;
 			path = presenters;
@@ -243,9 +270,8 @@
 			children = (
 				7D14E07E1FF2887600616F71 /* UIUtilities */,
 				7D14E0741FF2839D00616F71 /* CustomViews */,
-				7D14E0711FF282E300616F71 /* Login */,
-				7DD298A21FEAB4CE00A8E989 /* Home */,
-				7DD298A11FEAB48B00A8E989 /* SideMenu */,
+				7D14E0941FF3D5F200616F71 /* Screens */,
+				7D14E0951FF3D64000616F71 /* UIConstant.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -426,14 +452,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DD1C6AA1FF1482000E0A160 /* NetworkConstants.swift in Sources */,
+				7D14E09E1FF3FFA600616F71 /* VcForgotPassword.swift in Sources */,
 				7D14E08B1FF2895900616F71 /* ValidationUtil.swift in Sources */,
+				7D14E0931FF3D51B00616F71 /* VcLogin.swift in Sources */,
 				7D14E0891FF2895900616F71 /* GeneralLogicUtillities.swift in Sources */,
 				7D14E08A1FF2895900616F71 /* imageProcessingUtil.swift in Sources */,
 				7DD298A61FEAB4CE00A8E989 /* ViewController.swift in Sources */,
 				7D14E0831FF2887600616F71 /* Styles.swift in Sources */,
+				7D14E0961FF3D64000616F71 /* UIConstant.swift in Sources */,
 				7DD1C6A81FF147F000E0A160 /* ModBaseResponse.swift in Sources */,
 				7D14E0781FF2847700616F71 /* TableViewAdapter.swift in Sources */,
 				7D14E0771FF2847700616F71 /* CollectionViewAdapter.swift in Sources */,
+				7D14E09C1FF3EC6600616F71 /* UserEntity.swift in Sources */,
+				7D14E0981FF3E8C800616F71 /* DalLgoin.swift in Sources */,
+				7D14E09A1FF3EB0800616F71 /* PrLogin.swift in Sources */,
 				7D14E07C1FF286A000616F71 /* CTxt_Icon_Underline.swift in Sources */,
 				7DD1C6A61FF1462D00E0A160 /* NetworkHelper.swift in Sources */,
 				7D14E0821FF2887600616F71 /* MBProgressHUD.swift in Sources */,

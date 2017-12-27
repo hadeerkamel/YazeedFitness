@@ -23,6 +23,7 @@ class NetworkConstants
     // image URL
     static let baseServicesImageURL = "http://googanapps.com/maher/uploads/services/"
     
+    static let Login = "";
     
     
 }
