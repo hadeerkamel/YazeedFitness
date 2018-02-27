@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cocon_NextArabicLight.ttf">
+            <string>CoconNextArabic-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Vc About Us-->
+        <scene sceneID="ADa-rm-eYc">
+            <objects>
+                <viewController storyboardIdentifier="VcAboutUs" id="s3b-9r-9Ra" customClass="VcAboutUs" customModule="Yazeed_Fitness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yrH-Bd-zeH"/>
+                        <viewControllerLayoutGuide type="bottom" id="suX-sM-ZFT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GPC-fa-Abo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_loginAsset" translatesAutoresizingMaskIntoConstraints="NO" id="0UQ-gX-UEt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="234"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQ2-Gq-Q1D">
+                                <rect key="frame" x="37" y="119" width="301" height="444"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logoAsset" translatesAutoresizingMaskIntoConstraints="NO" id="Oxo-9i-dbp">
+                                        <rect key="frame" x="31" y="26" width="239" height="89"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wor-eT-lbL">
+                                        <rect key="frame" x="20" y="135" width="281" height="18.5"/>
+                                        <fontDescription key="fontDescription" name="CoconNextArabic-Light" family="CoconÆ Next Arabic" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Oxo-9i-dbp" firstAttribute="top" secondItem="WQ2-Gq-Q1D" secondAttribute="top" constant="26" id="5xY-22-Nfr"/>
+                                    <constraint firstAttribute="trailing" secondItem="Oxo-9i-dbp" secondAttribute="trailing" constant="31" id="EuZ-4r-Rlw"/>
+                                    <constraint firstItem="Oxo-9i-dbp" firstAttribute="leading" secondItem="WQ2-Gq-Q1D" secondAttribute="leading" constant="31" id="NJK-Mx-zEk"/>
+                                    <constraint firstItem="Wor-eT-lbL" firstAttribute="leading" secondItem="WQ2-Gq-Q1D" secondAttribute="leading" constant="20" id="QrY-pE-3pq"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wor-eT-lbL" secondAttribute="trailing" id="Ub4-Pf-Pae"/>
+                                    <constraint firstItem="Wor-eT-lbL" firstAttribute="top" secondItem="Oxo-9i-dbp" secondAttribute="bottom" constant="20" id="n3P-fG-m1d"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EuI-vk-dCW">
+                                <rect key="frame" x="16" y="35" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9Ir-Kr-2KD"/>
+                                    <constraint firstAttribute="width" constant="40" id="MlU-9K-cjG"/>
+                                </constraints>
+                                <state key="normal" image="backRight"/>
+                                <connections>
+                                    <action selector="didTapBackButton:" destination="s3b-9r-9Ra" eventType="touchUpInside" id="m9J-2g-o07"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="من نحن" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDh-gS-wcc">
+                                <rect key="frame" x="158.5" y="33" width="58.5" height="21.5"/>
+                                <fontDescription key="fontDescription" name="CoconNextArabic-Light" family="CoconÆ Next Arabic" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wxo-hB-9vo">
+                                <rect key="frame" x="37" y="563" width="301" height="74"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="sb8-sl-JFU">
+                                        <rect key="frame" x="0.0" y="17" width="301" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRy-2I-1Cq">
+                                                <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="06z-cC-Ij9"/>
+                                                    <constraint firstAttribute="width" constant="40" id="xF4-xm-cnA"/>
+                                                </constraints>
+                                                <state key="normal" image="ic_instagram"/>
+                                                <connections>
+                                                    <action selector="didTapInstagramButton:" destination="s3b-9r-9Ra" eventType="touchUpInside" id="kVg-QU-PVi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fBh-pb-prR">
+                                                <rect key="frame" x="65.5" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="Bd8-EN-mYi"/>
+                                                    <constraint firstAttribute="height" constant="40" id="OK9-XH-oPi"/>
+                                                </constraints>
+                                                <state key="normal" image="ic_behance"/>
+                                                <connections>
+                                                    <action selector="didTapBehanceButton:" destination="s3b-9r-9Ra" eventType="touchUpInside" id="CxV-2s-ln3"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48i-C9-kfb">
+                                                <rect key="frame" x="130.5" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="eKn-Gk-IKo"/>
+                                                    <constraint firstAttribute="height" constant="40" id="zzf-87-ci2"/>
+                                                </constraints>
+                                                <state key="normal" image="ic_pinterest"/>
+                                                <connections>
+                                                    <action selector="didTapPeinterestButton:" destination="s3b-9r-9Ra" eventType="touchUpInside" id="0aB-vp-eax"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKx-Ff-Ghz">
+                                                <rect key="frame" x="196" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="RNX-w0-luu"/>
+                                                    <constraint firstAttribute="height" constant="40" id="iVr-Mi-919"/>
+                                                </constraints>
+                                                <state key="normal" image="ic_linkedin"/>
+                                                <connections>
+                                                    <action selector="didTapLinkedInButton:" destination="s3b-9r-9Ra" eventType="touchUpInside" id="7J0-sI-UOK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Sf-gc-Kqu">
+                                                <rect key="frame" x="261" y="0.0" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="mhg-bi-mCK"/>
+                                                    <constraint firstAttribute="height" constant="40" id="vr2-BH-kLn"/>
+                                                </constraints>
+                                                <state key="normal" image="ic_snapchat"/>
+                                                <connections>
+                                                    <action selector="didTapSnapButton:" destination="s3b-9r-9Ra" eventType="touchUpInside" id="C8y-dq-4Mv"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="sb8-sl-JFU" firstAttribute="centerY" secondItem="wxo-hB-9vo" secondAttribute="centerY" id="8zJ-nf-lTf"/>
+                                    <constraint firstItem="sb8-sl-JFU" firstAttribute="centerX" secondItem="wxo-hB-9vo" secondAttribute="centerX" id="DFJ-h8-YWp"/>
+                                    <constraint firstAttribute="trailing" secondItem="sb8-sl-JFU" secondAttribute="trailing" id="NAr-Rm-vEg"/>
+                                    <constraint firstItem="sb8-sl-JFU" firstAttribute="leading" secondItem="wxo-hB-9vo" secondAttribute="leading" id="ZuN-eX-B3S"/>
+                                    <constraint firstAttribute="height" constant="74" id="uj9-lc-2r6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WQ2-Gq-Q1D" firstAttribute="leading" secondItem="GPC-fa-Abo" secondAttribute="leadingMargin" constant="21" id="0y2-YV-bdD"/>
+                            <constraint firstAttribute="trailing" secondItem="0UQ-gX-UEt" secondAttribute="trailing" id="6Kb-mU-bgP"/>
+                            <constraint firstItem="EuI-vk-dCW" firstAttribute="top" secondItem="yrH-Bd-zeH" secondAttribute="bottom" constant="15" id="8i5-eY-ONI"/>
+                            <constraint firstItem="wxo-hB-9vo" firstAttribute="top" secondItem="WQ2-Gq-Q1D" secondAttribute="bottom" id="BU8-M8-b98"/>
+                            <constraint firstItem="EuI-vk-dCW" firstAttribute="leading" secondItem="GPC-fa-Abo" secondAttribute="leadingMargin" id="Dhl-Y8-VwO"/>
+                            <constraint firstItem="aDh-gS-wcc" firstAttribute="centerX" secondItem="GPC-fa-Abo" secondAttribute="centerX" id="Ke8-sd-0ZA"/>
+                            <constraint firstItem="suX-sM-ZFT" firstAttribute="top" secondItem="wxo-hB-9vo" secondAttribute="bottom" constant="30" id="Qgc-vC-xvC"/>
+                            <constraint firstItem="WQ2-Gq-Q1D" firstAttribute="top" secondItem="EuI-vk-dCW" secondAttribute="bottom" constant="44" id="TOY-nF-k94"/>
+                            <constraint firstItem="0UQ-gX-UEt" firstAttribute="top" secondItem="GPC-fa-Abo" secondAttribute="top" id="VfI-Tg-w8Z"/>
+                            <constraint firstItem="wxo-hB-9vo" firstAttribute="leading" secondItem="GPC-fa-Abo" secondAttribute="leadingMargin" constant="21" id="Y2X-Ki-Ptk"/>
+                            <constraint firstItem="0UQ-gX-UEt" firstAttribute="leading" secondItem="GPC-fa-Abo" secondAttribute="leading" id="Ye4-Xg-Z80"/>
+                            <constraint firstItem="0UQ-gX-UEt" firstAttribute="width" secondItem="GPC-fa-Abo" secondAttribute="width" id="aKe-y6-pDf"/>
+                            <constraint firstItem="0UQ-gX-UEt" firstAttribute="height" secondItem="GPC-fa-Abo" secondAttribute="height" multiplier="234:667" id="pHp-Eb-cg6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wxo-hB-9vo" secondAttribute="trailing" constant="21" id="q5g-MF-qU4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WQ2-Gq-Q1D" secondAttribute="trailing" constant="21" id="s1J-79-KIN"/>
+                            <constraint firstItem="aDh-gS-wcc" firstAttribute="top" secondItem="yrH-Bd-zeH" secondAttribute="bottom" constant="13" id="wSu-I5-FZE"/>
+                            <constraint firstItem="Oxo-9i-dbp" firstAttribute="bottom" secondItem="0UQ-gX-UEt" secondAttribute="bottom" id="z8M-P2-taC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="aboutUsTextLabel" destination="Wor-eT-lbL" id="iGn-bU-ip3"/>
+                        <outlet property="aboutUsView" destination="WQ2-Gq-Q1D" id="32v-qn-QaW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EMh-1T-1Qr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.799999999999997" y="135.38230884557723"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backRight" width="24" height="24"/>
+        <image name="bg_loginAsset" width="361" height="250"/>
+        <image name="ic_behance" width="32" height="32"/>
+        <image name="ic_instagram" width="32" height="32"/>
+        <image name="ic_linkedin" width="32" height="32"/>
+        <image name="ic_logoAsset" width="236" height="73"/>
+        <image name="ic_pinterest" width="32" height="32"/>
+        <image name="ic_snapchat" width="32" height="32"/>
+    </resources>
+</document>

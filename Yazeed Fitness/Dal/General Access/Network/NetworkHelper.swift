@@ -40,7 +40,7 @@ class NetworkHelper
         var fileData : Data!
         var fileName : String!
         var fileMimeType : String!
-        
+            
     }
     
     internal static func YazeedAPI(domainurl:String? = nil, service:String ,hTTPMethod: Method, parameters: [String:Any]?, Files: [UploadableFile]? = nil, httpBodyData:Data? = nil
@@ -53,9 +53,14 @@ class NetworkHelper
         let UrlString = (domainurl == nil ? NetworkConstants.BaseAPI_URL : domainurl!) + service;
         let url = URL(string: UrlString)!
         var request : DataRequest!;
+   
+        //add the un and up to the parameters
+        var parameters_ = parameters
+        parameters_? ["un"] = NetworkConstants.unValue
+        parameters_? ["up"] = NetworkConstants.upValue
         
         print("request url >>>> "+UrlString)
-        print("Request Body >>>> "+(httpBodyData == nil ? (parameters == nil ? "" : String(describing: parameters!)) :  String(describing:httpBodyData!)))//{"Content-Type":"application/json"}
+        print("Request Body >>>> "+(httpBodyData == nil ? (parameters == nil ? "" : String(describing: parameters_!)) :  String(describing:httpBodyData!)))//{"Content-Type":"application/json"}
         
         if Files == nil && parameters != nil
         {
@@ -63,7 +68,7 @@ class NetworkHelper
             // request = Alamofire.request(url, method: .post, parameters: parameters, encoding: URLEncoding.default, headers: ["Content-Type":"application/x-www-form-urlencoded"])//"application/x-www-form-urlencoded"
             
             // json
-            request = Alamofire.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default)
+            request = Alamofire.request(url, method: .post, parameters: parameters_, encoding: JSONEncoding.default)
             
         }
         else if Files != nil
@@ -80,7 +85,7 @@ class NetworkHelper
                     {
                         MultipartFormData.append(fileinfo.fileData , withName: fileinfo.requestKey,fileName : fileinfo.fileName, mimeType: fileinfo.fileMimeType)//application/octet-stream  "image.png", mimeType: "image/png"
                     }
-                    for (key, value) in parameters!
+                    for (key, value) in parameters_!
                     {
                         MultipartFormData.append(String(describing: value).data(using: .utf8)!, withName: key)
                     }
@@ -137,7 +142,8 @@ class NetworkHelper
                             [URLError.Code.notConnectedToInternet ,URLError.Code.networkConnectionLost,URLError.Code.timedOut].contains(err.code)
                         {
                             // No internet
-                            message = NSLocalizedString("NoNetworkMessage", comment: "serverErorr")
+                            // message = NSLocalizedString("NoNetworkMessage", comment: "serverErorr")
+                            message = Messages.Network.NoNetwork
                             
                         }
                         
@@ -145,7 +151,8 @@ class NetworkHelper
                     else if (response.response?.statusCode == 500)
                     {
                         baseResponse.ResponseStat = ResponseStat.InternalServerError;
-                        message = NSLocalizedString("ERROR_OCCURED", comment: "serverErorr")
+                        //message = NSLocalizedString("ERROR_OCCURED", comment: "serverErorr")
+                        message = Messages.Network.ErrorOccured
                     }
                     else
                     {
@@ -156,7 +163,8 @@ class NetworkHelper
                         if jsonString == "<HTML></HTML>" || jsonString == ""
                         {
                             baseResponse.ResponseStat = ResponseStat.InternalServerError;
-                            message = NSLocalizedString("an error has occured please try again", comment: "serverErorr")
+                            //message = NSLocalizedString("an error has occured please try again", comment: "serverErorr")
+                            message = Messages.Network.ErrorOccured
                             callbackBase!(baseResponse,message);
                             return
                         }
@@ -164,7 +172,8 @@ class NetworkHelper
                         let asDic = NetworkHelper.convertToDictionary(text: jsonString!);
                         if asDic == nil {
                             baseResponse.ResponseStat = ResponseStat.InternalServerError;
-                            message = NSLocalizedString("Bad Server Response", comment: "serverErorr")
+                         //   message = NSLocalizedString("Bad Server Response", comment: "serverErorr")
+                            message =  Messages.Network.ErrorOccured // Bad Server Response
                             callbackBase!(baseResponse,message);
                             return
                         }
@@ -207,6 +216,7 @@ class NetworkHelper
                         }
                         
                     }
+                    
                     callbackBase!(baseResponse,message);
                     
                 }

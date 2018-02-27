@@ -15,8 +15,8 @@ class ModBaseResponse
     var code:Int? = nil;
     var status:String? = nil
     var message:Any? = nil
+    var data:Any? = nil
     var ResponseStat:ResponseStat!
-    
     var FullResponse : [String:Any]!
     
     
@@ -24,6 +24,7 @@ class ModBaseResponse
         code = dictionary["code"] as? Int
         status = dictionary["status"] as? String
         message = dictionary["message"]
+        data = dictionary["data"]
         FullResponse = dictionary
     }
     

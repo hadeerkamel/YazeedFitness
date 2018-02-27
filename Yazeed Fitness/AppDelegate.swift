@@ -7,17 +7,29 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        window?.rootViewController=UIConstants.LoginStory.instantiateViewController(withIdentifier: UIConstants.Screens.LOGIN)
+        if ISLoged {
+            let _ = AppDelegate.RoutToScreen(storyBoard: UIConstants.SideMenuStory, screen: "HomeInit", WithNav:  false)
+
+        }else{
+            window?.rootViewController = UIConstants.LoginStory.instantiateInitialViewController()
+        }
+        //window?.rootViewController=UIConstants.LoginStory.instantiateInitialViewController()//.instantiateViewController(withIdentifier: UIConstants.Screens.LOGIN)
+        
+        // IQKeyboardManager
+        IQKeyboardManager.sharedManager().enable = true
+        IQKeyboardManager.sharedManager().shouldResignOnTouchOutside = true
+        
         return true
     }
 
@@ -41,6 +53,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+
+    // MARK: - RoutToScreen -
+    internal static func RoutToScreen(storyBoard: UIStoryboard,screen: String, WithNav:Bool = true) -> UIViewController
+    {
+        let ViewController = storyBoard.instantiateViewController(withIdentifier: screen)
+        
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        appDelegate.window!.rootViewController =  ViewController
+        
+        return ViewController
     }
 
 

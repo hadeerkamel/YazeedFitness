@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CoE-Wr-WjE">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vc Doctors-->
+        <scene sceneID="AVL-TN-dfR">
+            <objects>
+                <viewController storyboardIdentifier="VcDoctors" id="CoE-Wr-WjE" customClass="VcDoctors" customModule="Yazeed_Fitness" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qh8-ET-u09"/>
+                        <viewControllerLayoutGuide type="bottom" id="hB6-KB-iE8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yJu-hp-37Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kHz-AM-cYq">
+                                <rect key="frame" x="67" y="-59" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5Ca-jP-KwH">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="CoE-Wr-WjE" id="Wob-kd-TNo"/>
+                                    <outlet property="delegate" destination="CoE-Wr-WjE" id="CDL-XP-FAk"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Ca-jP-KwH" firstAttribute="top" secondItem="qh8-ET-u09" secondAttribute="bottom" id="N9p-BA-RU6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5Ca-jP-KwH" secondAttribute="trailing" id="g33-pb-Y9u"/>
+                            <constraint firstItem="5Ca-jP-KwH" firstAttribute="leading" secondItem="yJu-hp-37Z" secondAttribute="leadingMargin" id="vWQ-nd-uhr"/>
+                            <constraint firstItem="hB6-KB-iE8" firstAttribute="top" secondItem="5Ca-jP-KwH" secondAttribute="bottom" id="xli-nI-MKE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="doctorsTableView" destination="5Ca-jP-KwH" id="qIC-Od-vv2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8gA-EL-MzQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="193" y="147"/>
+        </scene>
+    </scenes>
+</document>

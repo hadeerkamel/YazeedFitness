@@ -1,6 +1,6 @@
 //
 //  Styles.swift
-//  Mahir_Client
+//  Yazeed-Fitness
 //
 //  Created by Mohamed Hashem on 4/30/17.
 //  Copyright © 2017 MAC. All rights reserved.

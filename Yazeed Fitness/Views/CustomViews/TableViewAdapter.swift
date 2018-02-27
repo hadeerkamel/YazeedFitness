@@ -80,7 +80,9 @@ class TableViewAdapter:UITableView,UITableViewDelegate,UITableViewDataSource
         CellConfigurator?(cell,indexPath)
         return cell
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        sideMenu.handleMenuSelection(row: indexPath.row)
+    }
     func AddItem(item:Any,Animated:Bool)
     {
         dataArray.append(item)

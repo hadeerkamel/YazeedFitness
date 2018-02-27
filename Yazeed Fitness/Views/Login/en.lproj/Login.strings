@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "تسجيل حساب"; ObjectID = "0Ht-Ew-qSs"; */
+"0Ht-Ew-qSs.text" = "تسجيل حساب";
+
+/* Class = "UIButton"; normalTitle = "ارسال"; ObjectID = "1XC-RG-4em"; */
+"1XC-RG-4em.normalTitle" = "ارسال";
+
+/* Class = "UILabel"; text = "استعادة كلمة المرور"; ObjectID = "5Sm-ZR-f7W"; */
+"5Sm-ZR-f7W.text" = "استعادة كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "تسجيل"; ObjectID = "8DM-gw-wtI"; */
+"8DM-gw-wtI.normalTitle" = "تسجيل";
+
+/* Class = "UIButton"; normalTitle = "فتح حساب جديد"; ObjectID = "HDh-uj-qSS"; */
+"HDh-uj-qSS.normalTitle" = "فتح حساب جديد";
+
+/* Class = "UILabel"; text = "من فضلك ادخل البريد الالكتروني الذي سجلت بة لكي نرسل لك رابط لتغير كلمة المرور"; ObjectID = "M0S-gw-uiK"; */
+"M0S-gw-uiK.text" = "من فضلك ادخل البريد الالكتروني الذي سجلت بة لكي نرسل لك رابط لتغير كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "تسجيل دخول"; ObjectID = "frU-w1-P4M"; */
+"frU-w1-P4M.normalTitle" = "تسجيل دخول";
+
+/* Class = "UITextField"; placeholder = "ادخل البريد الالكتروني"; ObjectID = "qky-Sf-wjX"; */
+"qky-Sf-wjX.placeholder" = "ادخل البريد الالكتروني";
+
+/* Class = "UILabel"; text = "أو"; ObjectID = "xJL-0Y-sZC"; */
+"xJL-0Y-sZC.text" = "أو";

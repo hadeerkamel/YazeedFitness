@@ -91,7 +91,7 @@ class ValidationUtil
    static func validateCharacterAlphabetOnly(input: String) ->Bool {
         do
         {
-            let regex = try NSRegularExpression(pattern: "[A-Za-zء-ي]", options: .caseInsensitive)
+            let regex = try NSRegularExpression(pattern: "^[A-Za-zء-ي]+$", options: .caseInsensitive)
             if regex.matches(in: input, options: [], range: NSMakeRange(0, input.characters.count)).count > 0  {
                 return true}
         }
@@ -144,4 +144,13 @@ class ValidationUtil
         catch { return false }
         return false
     }
+   //------Hadeer------
+    static func validateBirthDate(input: Date) ->Bool {
+        let currentDate = Date()
+        if input > currentDate{
+            return false
+        }
+        return true
+    }
+    
 }

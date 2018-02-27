@@ -1,6 +1,6 @@
 //
 //  MBProgressHUD.swift
-//  Mahir_Client
+//  Yazeed-Fitness
 //
 //  Created by MAC on 4/30/17.
 //  Copyright © 2017 MAC. All rights reserved.

@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "الوزن عند التسجيل"; ObjectID = "C9H-Yh-sbM"; */
+"C9H-Yh-sbM.text" = "الوزن عند التسجيل";
+
+/* Class = "UILabel"; text = "كجم"; ObjectID = "DIe-SM-zFd"; */
+"DIe-SM-zFd.text" = "كجم";
+
+/* Class = "UILabel"; text = "كجم"; ObjectID = "DnU-gP-lVX"; */
+"DnU-gP-lVX.text" = "كجم";
+
+/* Class = "UILabel"; text = "٩٥"; ObjectID = "HHg-k0-Pdi"; */
+"HHg-k0-Pdi.text" = "٩٥";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "Ht2-SV-Nbp"; */
+"Ht2-SV-Nbp.text" = "100";
+
+/* Class = "UILabel"; text = "الوزن  الأسبوعي"; ObjectID = "TNl-Sh-vNm"; */
+"TNl-Sh-vNm.text" = "الوزن  الأسبوعي";
