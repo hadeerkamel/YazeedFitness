@@ -25,7 +25,7 @@ class PrLogin {
             
             let val = UserDefaults.standard.object(forKey: "UserToken")
             if val == nil {return nil}
-            return (rawValue: val as! String);
+            return (val as! String)
         }
         set
         {
@@ -44,7 +44,7 @@ class PrLogin {
             { return UserName_}
             let val = UserDefaults.standard.object(forKey: "UserName")
             if val == nil {return nil}
-            return (rawValue: val as! String);
+            return ( val as! String) 
         }
         set
         {
@@ -63,7 +63,7 @@ class PrLogin {
             { return Email_}
             let val = UserDefaults.standard.object(forKey: "Email")
             if val == nil {return nil}
-            return (rawValue: val as! String);
+            return (val as! String)
         }
         set
         {
@@ -82,7 +82,7 @@ class PrLogin {
             { return Age_}
             let val = UserDefaults.standard.object(forKey: "Age")
             if val == nil {return nil}
-            return (rawValue: val as! String);
+            return (val as! String)
         }
         set
         {
@@ -101,7 +101,7 @@ class PrLogin {
             { return Height_}
             let val = UserDefaults.standard.object(forKey: "Height")
             if val == nil {return nil}
-            return (rawValue: val as! String);
+            return ( val as! String)
         }
         set
         {
@@ -120,7 +120,7 @@ class PrLogin {
             { return CurrentWeight_}
             let val = UserDefaults.standard.object(forKey: "CurrentWeight")
             if val == nil {return nil}
-            return (rawValue: val as! String);
+            return (val as! String)
         }
         set
         {
@@ -139,7 +139,7 @@ class PrLogin {
             { return IdealWeight_}
             let val = UserDefaults.standard.object(forKey: "IdealWeight")
             if val == nil {return nil}
-            return (rawValue: val as! String);
+            return (val as! String)
         }
         set
         {
@@ -158,7 +158,7 @@ class PrLogin {
             { return Image_}
             let val = UserDefaults.standard.object(forKey: "Image")
             if val == nil {return nil}
-            return (rawValue: val as! String);
+            return (val as! String)
         }
         set
         {
@@ -177,7 +177,7 @@ class PrLogin {
             { return RegisterdWeight_}
             let val = UserDefaults.standard.object(forKey: "RegisterdWeight")
             if val == nil {return nil}
-            return (rawValue: val as! String);
+            return ( val as! String)
         }
         set
         {

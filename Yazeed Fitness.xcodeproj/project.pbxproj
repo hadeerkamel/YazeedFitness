@@ -200,9 +200,9 @@
 			isa = PBXGroup;
 			children = (
 				E2C040B01FFA298600F082A3 /* Login.storyboard */,
+				E2413A081FF8E741008F3F3E /* VcRegister.swift */,
 				7D14E0921FF3D51B00616F71 /* VcLogin.swift */,
 				7D14E09D1FF3FFA600616F71 /* VcForgotPassword.swift */,
-				E2413A081FF8E741008F3F3E /* VcRegister.swift */,
 				E2716639200F959F00569E42 /* VcForgetPasswordPopup.swift */,
 				E24995552014D8D4004CE23F /* VcChangePassword.swift */,
 				E25847A82015E28400C89804 /* VcSuccessRegistraion.swift */,
@@ -644,7 +644,6 @@
 				TargetAttributes = {
 					7DD298881FEA80B400A8E989 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = H4JG37F7M9;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -1011,7 +1010,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = H4JG37F7M9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Yazeed Fitness/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1033,7 +1032,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = H4JG37F7M9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Yazeed Fitness/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
